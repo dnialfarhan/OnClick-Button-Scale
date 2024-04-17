@@ -1,4 +1,4 @@
-# Button Scaler
+# Unity Button Scaler with LeanTween
 
 ## Description
 This script, `ButtonScaler.cs`, is designed for use in Unity projects to create a scaling effect for buttons when they are clicked. It allows buttons to visually respond to user interaction by scaling down when clicked and returning to their original size after a brief animation.
