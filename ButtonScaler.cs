@@ -4,35 +4,8 @@ using UnityEngine.EventSystems;
 
 public class ButtonScaler : MonoBehaviour
 {
-    /*[SerializeField] Button button;
     public float scaleFactor = 0.9f; // Scale factor when the button is clicked
-    public float animationDuration = 0.1f; // Duration of the scaling animation
-
-    private Vector3 originalScale;
-
-    public void OnButtonClick()
-    {
-        button = FindAnyObjectByType<Button>();
-
-        // Store the original scale of the button
-        originalScale = button.transform.localScale;
-
-        // Add listener for button click event
-        button.onClick.AddListener(OnButtonClick);
-
-        // Scale down the button
-        LeanTween.scale(button.gameObject, originalScale * scaleFactor, animationDuration)
-            .setEase(LeanTweenType.easeInOutQuad)
-            .setOnComplete(() =>
-            {
-                // Scale back to original size
-                LeanTween.scale(button.gameObject, originalScale, animationDuration)
-                    .setEase(LeanTweenType.easeInOutQuad);
-            });
-    }*/
-
-    public float scaleFactor = 0.9f; // Scale factor when the button is clicked
-    public float animationDuration = 0.1f; // Duration of the scaling animation
+    public float animationDuration = 0.25f; // Duration of the scaling animation
 
     void Update()
     {
